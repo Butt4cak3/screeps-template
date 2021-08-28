@@ -2,3 +2,4 @@
 /.env
 /dist/
 /.tscache
+/*.tmp.txt
