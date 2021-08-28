@@ -4,7 +4,6 @@
     "module": "commonjs",
     "rootDir": "src/",
     "moduleResolution": "node",
-    "typeRoots": ["node_modules/@types/", "types/"],
     "allowJs": true,
     "checkJs": false,
     "declaration": false,
@@ -31,5 +30,5 @@
     "allowUnreachableCode": true,
     "skipLibCheck": true
   },
-  "include": ["src/*.js", "src/*.ts"]
+  "include": ["src/*.js", "src/*.ts", "types/*.d.ts"]
 }
